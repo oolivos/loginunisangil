@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57DD17C7233C338700C7C3D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DD17C6233C338700C7C3D6 /* AppDelegate.swift */; };
+		57DD17C9233C338700C7C3D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DD17C8233C338700C7C3D6 /* SceneDelegate.swift */; };
+		57DD17CB233C338700C7C3D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DD17CA233C338700C7C3D6 /* ViewController.swift */; };
+		57DD17CE233C338700C7C3D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57DD17CC233C338700C7C3D6 /* Main.storyboard */; };
+		57DD17D0233C338900C7C3D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57DD17CF233C338900C7C3D6 /* Assets.xcassets */; };
+		57DD17D3233C338900C7C3D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57DD17D1233C338900C7C3D6 /* LaunchScreen.storyboard */; };
+		57DD17DB233C3E5E00C7C3D6 /* InicarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DD17DA233C3E5E00C7C3D6 /* InicarSesionViewController.swift */; };
+		57EDB4F123443B1A00F14023 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EDB4F023443B1A00F14023 /* HomeViewController.swift */; };
+		57EDB4F3234446BA00F14023 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EDB4F2234446BA00F14023 /* RegistroViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		57DD17C3233C338700C7C3D6 /* LoginUnisangil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginUnisangil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57DD17C6233C338700C7C3D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57DD17C8233C338700C7C3D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		57DD17CA233C338700C7C3D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57DD17CD233C338700C7C3D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57DD17CF233C338900C7C3D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57DD17D2233C338900C7C3D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57DD17D4233C338900C7C3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57DD17DA233C3E5E00C7C3D6 /* InicarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicarSesionViewController.swift; sourceTree = "<group>"; };
+		57EDB4F023443B1A00F14023 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		57EDB4F2234446BA00F14023 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57DD17C0233C338700C7C3D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57DD17BA233C338700C7C3D6 = {
+			isa = PBXGroup;
+			children = (
+				57DD17C5233C338700C7C3D6 /* LoginUnisangil */,
+				57DD17C4233C338700C7C3D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57DD17C4233C338700C7C3D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57DD17C3233C338700C7C3D6 /* LoginUnisangil.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57DD17C5233C338700C7C3D6 /* LoginUnisangil */ = {
+			isa = PBXGroup;
+			children = (
+				57DD17C6233C338700C7C3D6 /* AppDelegate.swift */,
+				57DD17C8233C338700C7C3D6 /* SceneDelegate.swift */,
+				57DD17CA233C338700C7C3D6 /* ViewController.swift */,
+				57DD17CC233C338700C7C3D6 /* Main.storyboard */,
+				57DD17CF233C338900C7C3D6 /* Assets.xcassets */,
+				57DD17D1233C338900C7C3D6 /* LaunchScreen.storyboard */,
+				57DD17D4233C338900C7C3D6 /* Info.plist */,
+				57DD17DA233C3E5E00C7C3D6 /* InicarSesionViewController.swift */,
+				57EDB4F023443B1A00F14023 /* HomeViewController.swift */,
+				57EDB4F2234446BA00F14023 /* RegistroViewController.swift */,
+			);
+			path = LoginUnisangil;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57DD17C2233C338700C7C3D6 /* LoginUnisangil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57DD17D7233C338900C7C3D6 /* Build configuration list for PBXNativeTarget "LoginUnisangil" */;
+			buildPhases = (
+				57DD17BF233C338700C7C3D6 /* Sources */,
+				57DD17C0233C338700C7C3D6 /* Frameworks */,
+				57DD17C1233C338700C7C3D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginUnisangil;
+			productName = LoginUnisangil;
+			productReference = 57DD17C3233C338700C7C3D6 /* LoginUnisangil.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57DD17BB233C338700C7C3D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Oscar  Olivos";
+				TargetAttributes = {
+					57DD17C2233C338700C7C3D6 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 57DD17BE233C338700C7C3D6 /* Build configuration list for PBXProject "LoginUnisangil" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57DD17BA233C338700C7C3D6;
+			productRefGroup = 57DD17C4233C338700C7C3D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57DD17C2233C338700C7C3D6 /* LoginUnisangil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57DD17C1233C338700C7C3D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DD17D3233C338900C7C3D6 /* LaunchScreen.storyboard in Resources */,
+				57DD17D0233C338900C7C3D6 /* Assets.xcassets in Resources */,
+				57DD17CE233C338700C7C3D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57DD17BF233C338700C7C3D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57EDB4F123443B1A00F14023 /* HomeViewController.swift in Sources */,
+				57EDB4F3234446BA00F14023 /* RegistroViewController.swift in Sources */,
+				57DD17CB233C338700C7C3D6 /* ViewController.swift in Sources */,
+				57DD17C7233C338700C7C3D6 /* AppDelegate.swift in Sources */,
+				57DD17DB233C3E5E00C7C3D6 /* InicarSesionViewController.swift in Sources */,
+				57DD17C9233C338700C7C3D6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57DD17CC233C338700C7C3D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57DD17CD233C338700C7C3D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57DD17D1233C338900C7C3D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57DD17D2233C338900C7C3D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57DD17D5233C338900C7C3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57DD17D6233C338900C7C3D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57DD17D8233C338900C7C3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoginUnisangil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.oscarolivos.LoginUnisangil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57DD17D9233C338900C7C3D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoginUnisangil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.oscarolivos.LoginUnisangil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57DD17BE233C338700C7C3D6 /* Build configuration list for PBXProject "LoginUnisangil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57DD17D5233C338900C7C3D6 /* Debug */,
+				57DD17D6233C338900C7C3D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57DD17D7233C338900C7C3D6 /* Build configuration list for PBXNativeTarget "LoginUnisangil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57DD17D8233C338900C7C3D6 /* Debug */,
+				57DD17D9233C338900C7C3D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57DD17BB233C338700C7C3D6 /* Project object */;
+}
