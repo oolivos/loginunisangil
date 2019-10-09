@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57914E0D234D7C2700C644C0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57914E0C234D7C2700C644C0 /* GoogleService-Info.plist */; };
 		57DD17C7233C338700C7C3D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DD17C6233C338700C7C3D6 /* AppDelegate.swift */; };
 		57DD17C9233C338700C7C3D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DD17C8233C338700C7C3D6 /* SceneDelegate.swift */; };
 		57DD17CB233C338700C7C3D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DD17CA233C338700C7C3D6 /* ViewController.swift */; };
@@ -16,9 +17,12 @@
 		57DD17DB233C3E5E00C7C3D6 /* InicarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DD17DA233C3E5E00C7C3D6 /* InicarSesionViewController.swift */; };
 		57EDB4F123443B1A00F14023 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EDB4F023443B1A00F14023 /* HomeViewController.swift */; };
 		57EDB4F3234446BA00F14023 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EDB4F2234446BA00F14023 /* RegistroViewController.swift */; };
+		F45988E6139D9E8419541F90 /* Pods_LoginUnisangil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51535ADC07B9AF00BB174F60 /* Pods_LoginUnisangil.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51535ADC07B9AF00BB174F60 /* Pods_LoginUnisangil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginUnisangil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57914E0C234D7C2700C644C0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		57DD17C3233C338700C7C3D6 /* LoginUnisangil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginUnisangil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57DD17C6233C338700C7C3D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57DD17C8233C338700C7C3D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +34,8 @@
 		57DD17DA233C3E5E00C7C3D6 /* InicarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicarSesionViewController.swift; sourceTree = "<group>"; };
 		57EDB4F023443B1A00F14023 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		57EDB4F2234446BA00F14023 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		8E2DBC0425E8D536FC04C4BC /* Pods-LoginUnisangil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginUnisangil.release.xcconfig"; path = "Target Support Files/Pods-LoginUnisangil/Pods-LoginUnisangil.release.xcconfig"; sourceTree = "<group>"; };
+		C243BCB815CE931A309AE6CB /* Pods-LoginUnisangil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginUnisangil.debug.xcconfig"; path = "Target Support Files/Pods-LoginUnisangil/Pods-LoginUnisangil.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F45988E6139D9E8419541F90 /* Pods_LoginUnisangil.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +55,8 @@
 			children = (
 				57DD17C5233C338700C7C3D6 /* LoginUnisangil */,
 				57DD17C4233C338700C7C3D6 /* Products */,
+				6AC4538277DCF4875BD33D00 /* Pods */,
+				96D6F7D496B48E540C2CDF82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,10 +79,28 @@
 				57DD17D1233C338900C7C3D6 /* LaunchScreen.storyboard */,
 				57DD17D4233C338900C7C3D6 /* Info.plist */,
 				57DD17DA233C3E5E00C7C3D6 /* InicarSesionViewController.swift */,
+				57914E0C234D7C2700C644C0 /* GoogleService-Info.plist */,
 				57EDB4F023443B1A00F14023 /* HomeViewController.swift */,
 				57EDB4F2234446BA00F14023 /* RegistroViewController.swift */,
 			);
 			path = LoginUnisangil;
+			sourceTree = "<group>";
+		};
+		6AC4538277DCF4875BD33D00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C243BCB815CE931A309AE6CB /* Pods-LoginUnisangil.debug.xcconfig */,
+				8E2DBC0425E8D536FC04C4BC /* Pods-LoginUnisangil.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		96D6F7D496B48E540C2CDF82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51535ADC07B9AF00BB174F60 /* Pods_LoginUnisangil.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57DD17D7233C338900C7C3D6 /* Build configuration list for PBXNativeTarget "LoginUnisangil" */;
 			buildPhases = (
+				C487611F33D633044966F2EC /* [CP] Check Pods Manifest.lock */,
 				57DD17BF233C338700C7C3D6 /* Sources */,
 				57DD17C0233C338700C7C3D6 /* Frameworks */,
 				57DD17C1233C338700C7C3D6 /* Resources */,
+				05E01A1573DFB396C103BD61 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -137,10 +166,53 @@
 				57DD17D3233C338900C7C3D6 /* LaunchScreen.storyboard in Resources */,
 				57DD17D0233C338900C7C3D6 /* Assets.xcassets in Resources */,
 				57DD17CE233C338700C7C3D6 /* Main.storyboard in Resources */,
+				57914E0D234D7C2700C644C0 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05E01A1573DFB396C103BD61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginUnisangil/Pods-LoginUnisangil-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginUnisangil/Pods-LoginUnisangil-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginUnisangil/Pods-LoginUnisangil-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C487611F33D633044966F2EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoginUnisangil-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		57DD17BF233C338700C7C3D6 /* Sources */ = {
@@ -294,6 +366,7 @@
 		};
 		57DD17D8233C338900C7C3D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C243BCB815CE931A309AE6CB /* Pods-LoginUnisangil.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -311,6 +384,7 @@
 		};
 		57DD17D9233C338900C7C3D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E2DBC0425E8D536FC04C4BC /* Pods-LoginUnisangil.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

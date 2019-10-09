@@ -7,14 +7,14 @@
 //
 
 import UIKit
+import Firebase
 
 class RegistroViewController: UIViewController {
 
-    @IBOutlet weak var txtNombre: UITextField!
+    @IBOutlet weak var txtNombres: UITextField!
     
-    @IBOutlet weak var txtApellido: UITextField!
-    
-    @IBOutlet weak var txtEdad: UITextField!
+    @IBOutlet weak var txtPassword: UITextField!
+    @IBOutlet weak var txtEmail: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,13 +23,19 @@ class RegistroViewController: UIViewController {
     
 
     @IBAction func btnGuardar(_ sender: UIButton) {
-        
+        Auth.auth().createUser(withEmail: txtEmail.text!, password: txtPassword.text!){response , error in
+            if error != nil{
+                self.showAlert(message: (error?.localizedDescription.description)!, success: false)
+            }else{
+                self.showAlert(message: "Usuario creado correctamente", success: true)
+            }
+        }
     }
     
     func showAlert(message : String, success : Bool) {
         let action = UIAlertAction(title: "Ir a Home", style: UIAlertAction.Style.default) { (action: UIAlertAction) in
-            let registro = self.storyboard?.instantiateViewController(identifier: "registro") as! RegistroViewController
-            self.navigationController?.pushViewController(registro, animated: true)
+            let home = self.storyboard?.instantiateViewController(identifier: "home") as! HomeViewController
+            self.navigationController?.pushViewController(home, animated: true)
         }
         let alert = UIAlertController(title: "Registro", message: message, preferredStyle: UIAlertController.Style.alert)
         if success {
