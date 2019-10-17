@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let user = Auth.auth().currentUser
+        if user != nil {
+            let home = self.storyboard?.instantiateViewController(identifier: "home") as! HomeViewController
+            self.navigationController?.pushViewController(home, animated: true)
+        }
     }
 
 

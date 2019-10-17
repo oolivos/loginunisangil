@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class InicarSesionViewController: UIViewController {
 
@@ -15,6 +16,19 @@ class InicarSesionViewController: UIViewController {
     @IBOutlet weak var txtPassword: UITextField!
     
     @IBAction func btnIniciarIniciarSesion(_ sender: UIButton) {
+        Auth.auth().signIn(withEmail: txtUsuario.text!, password: txtPassword.text!, completion: { (response, error) in
+            if error == nil{
+                let home = self.storyboard?.instantiateViewController(identifier: "home") as! HomeViewController
+                self.navigationController?.pushViewController(home, animated: true)
+            }else{
+                self.showModal(message: (error?.localizedDescription.description)!)
+            }
+            
+        })
+        
+        
+        
+        /*
         if txtUsuario.text == "admin" && txtPassword.text == "123" {
             //showModal(message: "Bienvenido \(txtUsuario.text!)")
             let home = storyboard?.instantiateViewController(identifier: "home") as! HomeViewController
@@ -22,7 +36,7 @@ class InicarSesionViewController: UIViewController {
             
         }else{
             showModal(message: "Error al iniciar Sesión")
-        }
+        }*/
     }
     
     func showModal(message : String) {
